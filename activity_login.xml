@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@drawable/template">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:id="@+id/userId"
+        android:layout_marginTop="200dp"
+        android:hint="Email"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/userPass"
+        android:layout_marginTop="280dp"
+        android:hint="Password"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/loginbtn"
+        android:layout_marginTop="360dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="420dp"
+        android:text="Not having an account?Sign up"
+        android:textColor="@color/white"
+        android:id="@+id/register"/>
+
+</RelativeLayout>

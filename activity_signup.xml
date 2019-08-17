@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup"
+    android:background="@drawable/template">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="EmailId"
+        android:textColorHint="@color/white"
+        android:id="@+id/emailId"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="200dp"
+        android:textColor="@color/white"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColorHint="@color/white"
+        android:inputType="textPassword"
+        android:id="@+id/password"
+        android:layout_marginTop="250dp"
+        android:textColor="@color/white"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:id="@+id/signupbtn"
+        android:layout_marginTop="300dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already have an account?Sign in"
+        android:textColor="@color/white"
+        android:id="@+id/signintext"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="110dp"/>
+
+
+</RelativeLayout>
